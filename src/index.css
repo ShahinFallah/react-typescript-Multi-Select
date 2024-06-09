@@ -2,20 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Scrollbar Styles */
-.scroll-container::-webkit-scrollbar {
-    width: 12px;
-}
-
-.scroll-container::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-.scroll-container::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 6px;
-}
-
-.scroll-container::-webkit-scrollbar-thumb:hover {
-    background: #555;
+body {
+    background: linear-gradient(to right bottom,#3838ff, #00ffff 100% , red);
+    height: 100vh;
 }
