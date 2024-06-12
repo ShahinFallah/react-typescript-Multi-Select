@@ -107,7 +107,7 @@ function Select({ multiple, value, options, onChange }: SelectProps) {
         <div
             ref={selectRef}
             tabIndex={1}
-            onBlur={(e) => {
+            onBlur={() => {
                 setTimeout(() => setIsOpen(false), 150)
             }}
             onClick={() => setIsOpen(prev => !prev)}
