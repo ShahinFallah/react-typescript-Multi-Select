@@ -1,7 +1,5 @@
 # react/typescript-Multi-Select
 
-![Weather App Demo](https://uploadkon.ir/uploads/b85e11_24multiple-select.gif)
-
 An advanced select component project built with React and TypeScript. This component provides both single select and multi select capabilities, along with accessibility features like keyboard navigation.
 
 ## Features
